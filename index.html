@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Início Container -->
+    <div id="container">
+      <!-- Início Cabeçalho -->
+      <header>
+        <div id="logo">
+          <h1><a href="#">Museu Nacional</a></h1>
+        </div>
+
+        <!-- Início Navegação -->
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Exposições</a></li>
+            <li><a href="#">Pesquisa</a></li>
+            <li><a href="#">Acervo</a></li>
+            <li><a href="#">Vídeos</a></li>
+            <li><a href="#">Fotos</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+        <!-- Fim Navegação -->
+      </header>
+      <!-- Fim Cabeçalho -->
+      <!-- Início Principal -->
+      <div id="principal">
+        <!-- Início Conteúdo -->
+        <div id="conteudo">
+          <section id="capa">
+            <img src="imagens/museu.png">
+          </section>
+          <section id="posts">
+            <article id="video">
+              <h3>Vídeo: Conheça o Museu</h3>
+              <iframe width="310" height="170"
+              src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <article id="mapa">
+              <h3>Mapa: Encontre o Museu</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.20644559393!2d-43.228717584439835!3d-22.905755043594123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1613405422409!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </article>
+            <article id="expo">
+              <h3>Exposições</h3>
+              <ul>
+                <li><a href="https://oglobo.globo.com/rio/os-assustadores-insetos-no-acervo-dos-200-anos-do-museu-nacional-22750985">Os assustadores insetos</a></li>
+                <li><a href="https://epoca.globo.com/o-cranio-de-luzia-mais-antiga-habitante-das-americas-pode-ter-desaparecido-no-incendio-do-museu-nacional-23045647">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                <li><a href="http://www.revistahcsm.coc.fiocruz.br/exposicao-plantas-do-brasil-central-resgata-trabalho-de-auguste-glaziou/">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                <li><a href="https://www.brasilianaiconografica.art.br/artigos/20220/teresa-cristina-a-imperatriz-e-a-arqueologia">Plantas do Brasil Central</a></li>
+                <li><a href="http://cienciaecultura.bvs.br/scielo.php?script=sci_arttext&pid=S0009-67252015000400019">Teresa Cristina: A Imperatriz Arqueõloga</a></li>
+                <li><a href="https://veja.abril.com.br/brasil/quatro-pecas-valiosas-salvas-do-incendio-do-museu-nacional/">Arte Com Dinossauros - Paleoarte</a></li>
+                <li><a href="#"><strong>Veja todos (65)</strong></a></li>
+              </ul>
+            </article>
+            <article id="historia">
+              <h3>200 anos de história</h3>
+              <p style="margin: 20px 0;">Numa ponta que avança sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.</p>
+              <a href="#">Leia mais</a>
+            </article>
+          </section>
+        </div>
+        <!-- Fim Conteúdo -->
+        <!-- Início lateral -->
+        <aside>
+          <!-- Início Depoimento -->
+          <section id="depoimento">
+            <img src="imagens/depoimento.png">
+          </section>
+          <!-- Fim Depoimento -->
+          <!-- Início Visita -->
+          <section id="visita">
+            <h4>Faça uma visita</h4>
+            <form class="" action="index.html" method="post">
+              <fieldset>
+                <legend>Selecione uma data</legend>
+                <label for="data">Data</label>
+                <input class="campo" style="width: 125px;" type="date" id="data" value="">
+
+                <label for="qtd">Qtd Pessoas</label>
+                <input class="campo" style="width: 30px;" type="number" id="qtd" value="1">
+              </fieldset>
+              <input class="botao" type="submit" value="Verifica disponibilidade">
+            </form>
+          </section>
+          <!-- Início Galeria -->
+          <section id="galeria">
+            <h4>Galeria de fotos</h4>
+            <a href="#">
+              <img src="imagens/imagem1.jpg" height="93" width="93" alt="Descrição da imagem">
+            </a>
+            <a href="#">
+              <img src="imagens/imagem2.jpg" height="93" width="93" alt="Descrição da imagem">
+            </a>
+            <a href="#">
+              <img src="imagens/imagem3.jpg" height="93" width="93" alt="Descrição da imagem">
+            </a>
+            <a href="#">
+              <img src="imagens/imagem4.jpg" height="93" width="93" alt="Descrição da imagem">
+            </a>
+          </section>
+          <!-- Fim Galeria -->
+        </aside>
+        <!-- Fim Lateral -->
+        <div style="clear: both"></div>
+      </div>
+      <!-- Fim Principal -->
+
+      <!-- Início Rodapé -->
+      <footer>
+        <p>
+          <a href="#">Home</a>
+          <a href="#">Exposições</a>
+          <a href="#">Pesquisa</a>
+          <a href="#">Acervo</a>
+          <a href="#">Vídeos</a>
+          <a href="#">Fotos</a>
+          <a href="#">Contato</a>
+        </p>
+        <p>
+          2019 <a href="#">Museu Nacional</a> - Todos os direitos reservados.
+        </p>
+      </footer>
+      <!-- Fim Rodapé -->
+    </div>
+    <!-- Fim Container -->
+  </body>
+</html>
